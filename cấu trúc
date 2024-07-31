@@ -1,0 +1,51 @@
+parent-plugin/
+├── includes/
+│   ├── admin/
+│   │   ├── class-parent-plugin-admin.php
+│   │   ├── class-parent-plugin-settings.php
+│   │   └── class-parent-plugin-logs.php
+│   ├── api/
+│   │   └── class-parent-plugin-api.php
+│   ├── sync/
+│   │   └── class-parent-plugin-sync.php
+│   ├── logger/
+│   │   └── class-parent-plugin-logger.php
+│   ├── security/
+│   │   └── class-parent-plugin-security.php
+│   ├── i18n/
+│   │   └── class-parent-plugin-i18n.php
+│   └── utils/
+│       └── class-parent-plugin-utils.php
+├── assets/
+│   ├── css/
+│   │   └── admin.css
+│   └── js/
+│       └── admin.js
+├── logs/
+│   └── sync.log
+├── languages/
+│   └── parent-plugin.pot
+├── parent-plugin.php
+└── uninstall.php
+
+child-plugin/
+├── includes/
+│   ├── admin/
+│   │   ├── class-child-plugin-admin.php
+│   ├── sync/
+│   │   └── class-child-plugin-sync.php
+│   ├── security/
+│   │   └── class-child-plugin-security.php
+│   ├── i18n/
+│   │   └── class-child-plugin-i18n.php
+│   └── utils/
+│       └── class-child-plugin-utils.php
+├── assets/
+│   ├── css/
+│   │   └── admin.css
+│   └── js/
+│       └── admin.js
+├── languages/
+│   └── child-plugin.pot
+├── child-plugin.php
+└── uninstall.php

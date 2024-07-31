@@ -1,0 +1,39 @@
+
+Installation
+Upload Plugin:
+Upload con.php to the wp-content/plugins directory.
+Activate Plugin:
+Go to the 'Plugins' menu in WordPress.
+Find "Child Plugin" and click "Activate".
+Configuration
+Navigate to Configuration:
+
+Go to the 'Child Plugin' menu in the WordPress admin dashboard.
+Enter API Key and URL:
+
+Enter the API key obtained from the parent site.
+Provide the URL of the parent site where the API is hosted.
+Setup Sync Interval:
+
+Configure the sync interval in hours if needed.
+Usage
+Sync Data:
+
+Use the 'Sync Now' button to manually synchronize data immediately.
+The plugin also supports automatic synchronization based on the configured interval.
+View Logs:
+
+Logs for synchronization activities are located in wp-content/uploads/child-plugin-logs/.
+FAQs
+Q: How do I enter the API key?
+A: Go to the 'Child Plugin' menu, enter the API key and parent site URL in the settings page, and save the changes.
+
+Q: How do I manually sync data?
+A: Click the 'Sync Now' button in the 'Child Plugin' menu to initiate a manual synchronization.
+
+Q: What if the data synchronization fails?
+A: Check the logs for error messages. Ensure the API key and parent site URL are correctly configured and that the parent site API is accessible.
+
+Q: Where can I find logs for troubleshooting?
+A: Logs are located in wp-content/uploads/child-plugin-logs/.
+

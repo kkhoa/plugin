@@ -1,0 +1,29 @@
+Installation
+Upload Plugin:
+Upload cha.php to the wp-content/plugins directory.
+Activate Plugin:
+Go to the 'Plugins' menu in WordPress.
+Find "Parent Plugin" and click "Activate".
+Configuration
+Navigate to Configuration:
+
+Go to the 'Parent Plugin' menu in the WordPress admin dashboard.
+Add API Keys:
+
+Enter your API key details in the provided fields.
+Set permissions and manage existing API keys.
+Setup Cron Job:
+
+Ensure that the cron job is set up for automatic synchronization if necessary.
+Usage
+The plugin provides API endpoints that child sites use to synchronize data.
+You can view and manage API keys and settings from the 'Parent Plugin' menu.
+FAQs
+Q: How do I add an API key?
+A: Navigate to the 'Parent Plugin' menu, fill out the form with your API key details, and click 'Add API Key'.
+
+Q: What do I do if synchronization fails?
+A: Check the logs for error messages. Ensure the API key is valid, properly configured, and not expired. Review the API endpoint settings.
+
+Q: Where can I find logs for troubleshooting?
+A: Logs are located in wp-content/uploads/parent-plugin-logs/.

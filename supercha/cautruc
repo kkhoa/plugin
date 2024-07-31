@@ -1,0 +1,23 @@
+parent-plugin/
+├── includes/
+│   ├── admin/
+│   │   ├── class-parent-plugin-admin.php
+│   │   ├── class-parent-plugin-settings.php
+│   │   └── class-parent-plugin-logger.php
+│   ├── public/
+│   │   ├── class-parent-plugin-public.php
+│   │   └── class-parent-plugin-api.php
+│   ├── class-parent-plugin-activator.php
+│   ├── class-parent-plugin-deactivator.php
+│   └── class-parent-plugin-i18n.php
+├── assets/
+│   ├── css/
+│   │   └── admin.css
+│   └── js/
+│       └── admin.js
+├── languages/
+│   └── parent-plugin.pot
+├── logs/
+│   └── plugin-log.txt
+├── parent-plugin.php
+└── uninstall.php
